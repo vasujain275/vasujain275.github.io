@@ -5,7 +5,21 @@
     <link>https://vasujain275.github.io/</link>
     <description>Recent content on Vasu Jain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://vasujain275.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Oct 2023 17:08:40 +0530</lastBuildDate><atom:link href="https://vasujain275.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How JavaScript Execute Code</title>
+      <link>https://vasujain275.github.io/posts/how-javascript-execute-code/</link>
+      <pubDate>Tue, 17 Oct 2023 17:08:40 +0530</pubDate>
+      
+      <guid>https://vasujain275.github.io/posts/how-javascript-execute-code/</guid>
+      <description>{} - This is our Global Execution Context (this)
+Note: Global Execution Context is different in various environment like Node, Browser, Bun, etc.
+It is a window object in browser and a empty object in a runtime like Nodejs.
+Types of Execution Contexts Link to heading There are mainly three types of global execution contexts:
+Global Execution Context Functional Execution Context Eval Execution Context (Good to Know, mainly used in mongoose) How JS code is Executed?</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://vasujain275.github.io/about/</link>

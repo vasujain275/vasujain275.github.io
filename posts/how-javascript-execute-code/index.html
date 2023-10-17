@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  How JavaScript Execute Code · Vasu Jain
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Vasu Jain">
+<meta name="description" content="A Small Article showcasing code execution process in JavaScript.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How JavaScript Execute Code"/>
+<meta name="twitter:description" content="A Small Article showcasing code execution process in JavaScript."/>
+
+<meta property="og:title" content="How JavaScript Execute Code" />
+<meta property="og:description" content="A Small Article showcasing code execution process in JavaScript." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vasujain275.github.io/posts/how-javascript-execute-code/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-17T17:08:40+05:30" />
+<meta property="article:modified_time" content="2023-10-17T17:08:40+05:30" />
+
+
+
+
+<link rel="canonical" href="https://vasujain275.github.io/posts/how-javascript-execute-code/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.135e22c97ff685fe983fc60048e309ced8f00d8d38f536aa67dba8a13a03dfa4.css" integrity="sha256-E14iyX/2hf6YP8YASOMJztjwDY049TaqZ9uooToD36Q=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Vasu Jain
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://vasujain275.github.io/posts/how-javascript-execute-code/">
+              How JavaScript Execute Code
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-10-17T17:08:40&#43;05:30">
+                October 17, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="/authors/vasu/">Vasu</a></div>
+
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/tech/">Tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/javascript/">javascript</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/programming/">programming</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/concept/">concept</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p><strong>{}</strong> - This is our <strong>Global Execution Context</strong> <em>(this)</em></p>
+<p><strong>Note:</strong> Global Execution Context is different in various environment like Node, Browser, Bun, etc.</p>
+<p>It is a window object in browser and a empty object in a runtime like Nodejs.</p>
+<h1 id="types-of-execution-contexts">
+  Types of Execution Contexts
+  <a class="heading-link" href="#types-of-execution-contexts">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>There are mainly three types of global execution contexts:</p>
+<ol>
+<li>Global Execution Context</li>
+<li>Functional Execution Context</li>
+<li>Eval Execution Context (Good to Know, mainly used in mongoose)</li>
+</ol>
+<h1 id="how-js-code-is-executed">
+  How JS code is Executed?
+  <a class="heading-link" href="#how-js-code-is-executed">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Let&rsquo;s understand this process with an Example -</p>
+<div class="highlight"><pre tabindex="0" style="color:#c9d1d9;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff7b72">let</span> val1 <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">10</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">let</span> val2 <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">function</span> addNum(num1, num2){
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">let</span> total <span style="color:#ff7b72;font-weight:bold">=</span> num1 <span style="color:#ff7b72;font-weight:bold">+</span> num2
+</span></span><span style="display:flex;"><span>	<span style="color:#ff7b72">return</span> total
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">let</span> result1 <span style="color:#ff7b72;font-weight:bold">=</span> addNum(val1,val2)
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">let</span> result2 <span style="color:#ff7b72;font-weight:bold">=</span> addNum(<span style="color:#a5d6ff">10</span>,<span style="color:#a5d6ff">2</span>)
+</span></span></code></pre></div><h2 id="1-global-execution--environment">
+  1. Global Execution / Environment
+  <a class="heading-link" href="#1-global-execution--environment">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h4 id="a-global-object----this-is-created">
+  A global object <strong>{}</strong> - <em>this</em> is created.
+  <a class="heading-link" href="#a-global-object----this-is-created">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<h2 id="2-memory-creation-phase">
+  2. Memory Creation Phase
+  <a class="heading-link" href="#2-memory-creation-phase">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>All variables are created and <em>undefined</em> value is assigned to them.</p>
+<p>In case of our Example -</p>
+<p><em>var1</em> -&gt; undefined</p>
+<p><em>var2</em> -&gt; undefined</p>
+<p><em>addNum</em> -&gt; definition of Function i.e. Steps to Execute</p>
+<p><em>result1</em> -&gt; undefined</p>
+<p><em>result2</em> -&gt; undefined</p>
+<h2 id="3-execution-phase">
+  3. Execution Phase
+  <a class="heading-link" href="#3-execution-phase">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Values are assigned to variables.</p>
+<p><em>var1</em> &lt;&ndash; 10</p>
+<p><em>var2</em> &lt;&ndash; 5</p>
+<p>Now the function creates it own Execution Context first-</p>
+<h3 id="addnum----new-variable-environment--new-execution-thread">
+  <strong>addNum</strong> &ndash;&gt; <em>New Variable Environment</em> + <em>New Execution Thread</em>
+  <a class="heading-link" href="#addnum----new-variable-environment--new-execution-thread">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>Note:</strong> For each new Function, there will be its own Execution Context where new Memory Creation Phase and Execution Phase will be created.</p>
+<h4 id="addnums-memory-phase--">
+  <strong>addNum</strong>&rsquo;s Memory Phase -
+  <a class="heading-link" href="#addnums-memory-phase--">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><em>var1</em> -&gt; undefined</p>
+<p><em>var2</em> -&gt; undefined</p>
+<p><em>total</em> -&gt; undefined</p>
+<h4 id="addnums-execution-phase--">
+  <strong>addNum</strong>&rsquo;s Execution Phase -
+  <a class="heading-link" href="#addnums-execution-phase--">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><em>num1</em> -&gt; 10</p>
+<p><em>num2</em> -&gt; 5</p>
+<p><em>total</em> -&gt; 15</p>
+<h4 id="the-total-variable-with-variable-is-returned-to-global-context">
+  The <em>total</em> variable with variable is returned to <strong>Global Context</strong>.
+  <a class="heading-link" href="#the-total-variable-with-variable-is-returned-to-global-context">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<h4 id="now-the-execution-context-of-addnum-will-be-deleted-and-control-will-reach-global-execution-phase">
+  <strong>Now</strong> the Execution Context of addNum will be <strong>Deleted</strong> and control will reach Global Execution Phase.
+  <a class="heading-link" href="#now-the-execution-context-of-addnum-will-be-deleted-and-control-will-reach-global-execution-phase">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><em>result1</em> -&gt; 15</p>
+<p><em>result2</em> -&gt; 12       // Same logic will be used to get value of result2</p>
+<h4 id="this-was-the-basic-overview-of-how-javascript-execute-code">
+  This was the Basic Overview of How JavaScript Execute Code.
+  <a class="heading-link" href="#this-was-the-basic-overview-of-how-javascript-execute-code">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Concept by - <em>Hitesh Choudhary (YT)</em></p>
+<p>Article by - <em>Vasu Jain</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2023
+     Vasu Jain 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

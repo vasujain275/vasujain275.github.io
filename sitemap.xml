@@ -2,19 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vasujain275.github.io/about/</loc>
-    <lastmod>2023-10-17T16:38:54+05:30</lastmod>
-  </url><url>
     <loc>https://vasujain275.github.io/authors/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
   </url><url>
     <loc>https://vasujain275.github.io/categories/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/tags/concept/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/posts/how-javascript-execute-code/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/tags/javascript/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/posts/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/tags/programming/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/tags/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/categories/tech/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/authors/vasu/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/</loc>
+    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain275.github.io/about/</loc>
+    <lastmod>2023-10-17T16:38:54+05:30</lastmod>
   </url><url>
     <loc>https://vasujain275.github.io/projects/</loc>
   </url><url>
     <loc>https://vasujain275.github.io/series/</loc>
-  </url><url>
-    <loc>https://vasujain275.github.io/tags/</loc>
-  </url><url>
-    <loc>https://vasujain275.github.io/</loc>
   </url>
 </urlset>
