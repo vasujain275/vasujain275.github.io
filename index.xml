@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vasu Jain</title>
+    <link>https://vasujain275.github.io/</link>
+    <description>Recent content on Vasu Jain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://vasujain275.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://vasujain275.github.io/about/</link>
+      <pubDate>Tue, 17 Oct 2023 16:38:54 +0530</pubDate>
+      
+      <guid>https://vasujain275.github.io/about/</guid>
+      <description> Hi 👋, I&amp;rsquo;m Vasu Link to heading A passionate full stack developer from India Link to heading 🌱 I&amp;rsquo;m currently learning DSA &amp;amp; Full Stack Development 👨‍💻 All of my projects are available at My Portfolio 📫 Email: vasujain275@gmail.com Connect with me Link to heading Languages and Tools Link to heading </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://vasujain275.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vasujain275.github.io/projects/</guid>
+      <description>Welcome to my coding journey! 🛤️ I&amp;rsquo;m a creative explorer of programming languages and technologies, including:
+C++ for powerful and efficient code. 💪 Python for versatile scripting and data manipulation. 🐍 JavaScript and TypeScript for dynamic web applications. 🌐 React for building interactive user interfaces. ⚛️ Node.js and Express for server-side development. 🖥️ MongoDB and MySQL for data storage and management. 📊 HTML and CSS for crafting beautiful web experiences. 🎨 Docker for containerization and deployment.</description>
+    </item>
+    
+  </channel>
+</rss>
