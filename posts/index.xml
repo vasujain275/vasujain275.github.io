@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Vasu Jain</title>
-    <link>https://vasujain275.github.io/posts/</link>
-    <description>Recent content in Posts on Vasu Jain</description>
+    <title>Posts on Home | Vasu Jain</title>
+    <link>https://vasujain.me/posts/</link>
+    <description>Recent content in Posts on Home | Vasu Jain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 17 Oct 2023 17:08:40 +0530</lastBuildDate><atom:link href="https://vasujain275.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2024 15:52:52 +0530</lastBuildDate>
+    <atom:link href="https://vasujain.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Key Podcast Takeaways   Wisdom From CTO Subhash Choudhary</title>
+      <link>https://vasujain.me/posts/key-podcast-takeaways---wisdom-from-cto-subhash-choudhary/</link>
+      <pubDate>Thu, 11 Apr 2024 15:52:52 +0530</pubDate>
+      <guid>https://vasujain.me/posts/key-podcast-takeaways---wisdom-from-cto-subhash-choudhary/</guid>
+      <description>Found this great podcast of Subhash Choudhary, CTO, Dukaan and his life journey. It was so entertaining that I watched the whole 3-hour podcast in one sitting. It was packed with knowledge, life experiences and insights. I thought of summarizing my leanings from this podcast into a small blog post. So, here are some of the key takeaways from this gem of a podcast -&#xA;Be a Technologist first then a Businessman We should never open a startup if we want to have a luxurious life or we want to get insanely rich, we will most likely lose motivation and fail.</description>
+    </item>
+    <item>
+      <title>AUR   the Reason I Switched From Debian 12 to Arch Linux</title>
+      <link>https://vasujain.me/posts/aur---the-reason-i-switched-from-debian-12-to-arch-linux/</link>
+      <pubDate>Wed, 01 Nov 2023 23:15:37 +0530</pubDate>
+      <guid>https://vasujain.me/posts/aur---the-reason-i-switched-from-debian-12-to-arch-linux/</guid>
+      <description>I have been using Linux-based operating systems for the past couple of years now. I installed Linux Mint on my 6th gen i3 laptop to get better performance, and immediately fallen love with the command line. I love the fact we can control our whole system through certain sets of commands. I like the idea of installing an app through apt install directly and not having to go to that app website to first download an installer and click next multiple times to install an application.</description>
+    </item>
     <item>
       <title>How JavaScript Execute Code</title>
-      <link>https://vasujain275.github.io/posts/how-javascript-execute-code/</link>
+      <link>https://vasujain.me/posts/how-javascript-execute-code/</link>
       <pubDate>Tue, 17 Oct 2023 17:08:40 +0530</pubDate>
-      
-      <guid>https://vasujain275.github.io/posts/how-javascript-execute-code/</guid>
-      <description>{} - This is our Global Execution Context (this)
-Note: Global Execution Context is different in various environment like Node, Browser, Bun, etc.
-It is a window object in browser and a empty object in a runtime like Nodejs.
-Types of Execution Contexts Link to heading There are mainly three types of global execution contexts:
-Global Execution Context Functional Execution Context Eval Execution Context (Good to Know, mainly used in mongoose) How JS code is Executed?</description>
+      <guid>https://vasujain.me/posts/how-javascript-execute-code/</guid>
+      <description>{} - This is our Global Execution Context (this)&#xA;Note: Global Execution Context is different in various environment like Node, Browser, Bun, etc.&#xA;It is a window object in browser and a empty object in a runtime like Nodejs.&#xA;Types of Execution Contexts There are mainly three types of global execution contexts:&#xA;Global Execution Context Functional Execution Context Eval Execution Context (Good to Know, mainly used in mongoose) How JS code is Executed?</description>
     </item>
-    
   </channel>
 </rss>

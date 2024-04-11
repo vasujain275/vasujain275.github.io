@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Vasu Jain</title>
-    <link>https://vasujain275.github.io/tags/</link>
-    <description>Recent content in Tags on Vasu Jain</description>
+    <title>Tags on Home | Vasu Jain</title>
+    <link>https://vasujain.me/tags/</link>
+    <description>Recent content in Tags on Home | Vasu Jain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 17 Oct 2023 17:08:40 +0530</lastBuildDate><atom:link href="https://vasujain275.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>concept</title>
-      <link>https://vasujain275.github.io/tags/concept/</link>
-      <pubDate>Tue, 17 Oct 2023 17:08:40 +0530</pubDate>
-      
-      <guid>https://vasujain275.github.io/tags/concept/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://vasujain275.github.io/tags/javascript/</link>
-      <pubDate>Tue, 17 Oct 2023 17:08:40 +0530</pubDate>
-      
-      <guid>https://vasujain275.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://vasujain275.github.io/tags/programming/</link>
-      <pubDate>Tue, 17 Oct 2023 17:08:40 +0530</pubDate>
-      
-      <guid>https://vasujain275.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language>
+    <atom:link href="https://vasujain.me/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

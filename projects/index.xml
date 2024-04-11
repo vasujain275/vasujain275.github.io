@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Home | Vasu Jain</title>
+    <link>https://vasujain.me/projects/</link>
+    <description>Recent content in Projects on Home | Vasu Jain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2024 15:33:49 +0530</lastBuildDate>
+    <atom:link href="https://vasujain.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robosafe - Wireless Controlled Locker With Multi Factor Authentication</title>
+      <link>https://vasujain.me/projects/robosafe---wireless-controlled-locker-with-multi-factor-authentication/</link>
+      <pubDate>Thu, 11 Apr 2024 15:33:49 +0530</pubDate>
+      <guid>https://vasujain.me/projects/robosafe---wireless-controlled-locker-with-multi-factor-authentication/</guid>
+      <description>A versatile wireless controlled locker system built using an Arduino Mega. It offers seamless unlocking through various methods including App control, RFID card, Fingerprint.&#xA;Features 🔒 Wireless Control: Unlock and access the locker remotely using a dedicated mobile app. 📱 Multi-factor Authentication: RFID Card: Swipe an authorized RFID card for quick access. 💳 Fingerprint: Unlock using biometric authentication for added security. 👆 Arduino Mega: Powered by the reliable Arduino Mega platform.</description>
+    </item>
+    <item>
+      <title>MrDataAnalyst   Interactive Data Analysis Tool</title>
+      <link>https://vasujain.me/projects/mrdataanalyst---interactive-data-analysis-tool/</link>
+      <pubDate>Thu, 11 Apr 2024 15:33:11 +0530</pubDate>
+      <guid>https://vasujain.me/projects/mrdataanalyst---interactive-data-analysis-tool/</guid>
+      <description>An interactive data analysis tool that empowers users to input data, perform various data manipulation tasks, and visualize insights effortlessly. Built using Python&amp;rsquo;s Pandas, NumPy, and Matplotlib libraries, this tool is designed to simplify data analysis tasks.&#xA;Features 📊 Data Aggregation: Summarize and aggregate data based on specified criteria. 📈 Data Sorting: Arrange data in ascending or descending order for better understanding. 🔍 Data Pivoting: Transform data into pivot tables for multidimensional analysis.</description>
+    </item>
+    <item>
+      <title>CBSE Results 2023 - Automated CBSE Result Scraper</title>
+      <link>https://vasujain.me/projects/cbse-results-2023---automated-cbse-result-scraper/</link>
+      <pubDate>Thu, 11 Apr 2024 15:28:20 +0530</pubDate>
+      <guid>https://vasujain.me/projects/cbse-results-2023---automated-cbse-result-scraper/</guid>
+      <description>In this project, I created a Python script built using Selenium to scrape scorecards from the CBSE Results Digilocker website. It can retrieve scorecards for all 12th-grade students in a school.&#xA;Features 📄 Automated Scraper: Retrieve scorecards for all 12th-grade students without manual effort. 🔄 Smart Scraping: Utilize Selenium for efficient and accurate data extraction. 🤖 Comprehensive Data: Obtain detailed scorecards from the CBSE Results Digilocker. 🎓 </description>
+    </item>
+    <item>
+      <title>OnePaceStremioV2 - Dynamic Stremio Addon for One Pace</title>
+      <link>https://vasujain.me/projects/onepacestremiov2---dynamic-stremio-addon-for-one-pace/</link>
+      <pubDate>Thu, 11 Apr 2024 15:26:06 +0530</pubDate>
+      <guid>https://vasujain.me/projects/onepacestremiov2---dynamic-stremio-addon-for-one-pace/</guid>
+      <description>A Dynamic Stremio addon written in JavaScript using Stremio SDK that provides a better way to watch One Pace on Stremio. It uses data from One Pace obtained through a GraphQL query.&#xA;Features 📺 Dynamic Stremio Addon: Enhance your Stremio experience with One Pace content. 🎬 Better Viewing: Enjoy One Pace content seamlessly on Stremio. 🚀 GraphQL Integration: Fetch One Pace data using GraphQL queries. 🔍 Tech Stack 🛠️ Programming: JavaScript Stremio SDK: Stremio addon development using the Stremio SDK.</description>
+    </item>
+  </channel>
+</rss>

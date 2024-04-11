@@ -2,44 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vasujain275.github.io/authors/</loc>
+    <loc>https://vasujain.me/</loc>
+    <lastmod>2024-04-11T15:52:52+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/posts/key-podcast-takeaways---wisdom-from-cto-subhash-choudhary/</loc>
+    <lastmod>2024-04-11T15:52:52+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/posts/</loc>
+    <lastmod>2024-04-11T15:52:52+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/projects/</loc>
+    <lastmod>2024-04-11T15:33:49+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/projects/robosafe---wireless-controlled-locker-with-multi-factor-authentication/</loc>
+    <lastmod>2024-04-11T15:33:49+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/projects/mrdataanalyst---interactive-data-analysis-tool/</loc>
+    <lastmod>2024-04-11T15:33:11+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/projects/cbse-results-2023---automated-cbse-result-scraper/</loc>
+    <lastmod>2024-04-11T15:28:20+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/projects/onepacestremiov2---dynamic-stremio-addon-for-one-pace/</loc>
+    <lastmod>2024-04-11T15:26:06+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/posts/aur---the-reason-i-switched-from-debian-12-to-arch-linux/</loc>
+    <lastmod>2023-11-01T23:15:37+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/posts/how-javascript-execute-code/</loc>
     <lastmod>2023-10-17T17:08:40+05:30</lastmod>
   </url><url>
-    <loc>https://vasujain275.github.io/categories/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
+    <loc>https://vasujain.me/categories/</loc>
   </url><url>
-    <loc>https://vasujain275.github.io/tags/concept/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/posts/how-javascript-execute-code/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/tags/javascript/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/posts/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/tags/programming/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/tags/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/categories/tech/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/authors/vasu/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/</loc>
-    <lastmod>2023-10-17T17:08:40+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/about/</loc>
-    <lastmod>2023-10-17T16:38:54+05:30</lastmod>
-  </url><url>
-    <loc>https://vasujain275.github.io/projects/</loc>
-  </url><url>
-    <loc>https://vasujain275.github.io/series/</loc>
+    <loc>https://vasujain.me/tags/</loc>
   </url>
 </urlset>
