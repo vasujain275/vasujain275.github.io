@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vasujain.me/</loc>
-    <lastmod>2024-04-11T15:52:52+05:30</lastmod>
-  </url><url>
     <loc>https://vasujain.me/posts/key-podcast-takeaways---wisdom-from-cto-subhash-choudhary/</loc>
     <lastmod>2024-04-11T15:52:52+05:30</lastmod>
   </url><url>
     <loc>https://vasujain.me/posts/</loc>
+    <lastmod>2024-04-11T15:52:52+05:30</lastmod>
+  </url><url>
+    <loc>https://vasujain.me/</loc>
     <lastmod>2024-04-11T15:52:52+05:30</lastmod>
   </url><url>
     <loc>https://vasujain.me/projects/</loc>
